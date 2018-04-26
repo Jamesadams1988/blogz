@@ -1,17 +1,17 @@
 body {
     background-color:slategray;
-    color:white;
-}
-h1 {
-    color:white;
-    font-size:2em;
-    text-align: center
-}
-p {
-    color:white;
-    font-size:1em;
-}
-error {
-    color:red;
-    font-size:1.5em;
-}
+    color:whitesmoke;
+    font-family: 'Oswald', sans-serif;
+  }
+  .links:link{
+    color:whitesmoke;
+  }
+  .links:hover{
+    color:whitesmoke;
+  }
+  .links:active{
+    color:whitesmoke;
+  }
+  .links:visited{
+    color:whitesmoke;
+  }

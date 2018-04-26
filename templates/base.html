@@ -2,16 +2,35 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+    body {
+      background-color:slategray;
+      color:whitesmoke;
+      font-family: 'Oswald', sans-serif;
+    }
+    .links:link{
+      color:whitesmoke;
+    }
+    .links:hover{
+      color:whitesmoke;
+    }
+    .links:active{
+      color:whitesmoke;
+    }
+    .links:visited{
+      color:whitesmoke;
+    }
+    </style>
   </head>
   <body>
     <div>
       <nav>
-        <center><h1><a href="/">Blog Away!</a></h1></center>
-        <a href="/blog" >View All Posts</a>
-        <a href="/newpost">New Post</a>
-        <a href="/logout">Logout</a>
-        <a href="/login">Login</a>
+        <center><h1><B><a href="/" class="links" style="font-family: 'Oswald', sans-serif; font-size:3em;">Blogspot</a></B></h1>
+        <a href="/blog" class="links" style="font-family: 'Oswald', sans-serif;">View All Posts</a>
+        <a href="/newpost" class="links" style="font-family: 'Oswald', sans-serif;">New Post</a>
+        <a href="/logout" class="links" style="font-family: 'Oswald', sans-serif;">Logout</a>
+        <a href="/login" class="links" style="font-family: 'Oswald', sans-serif;">Login</a></center>
       </nav>
       {% block content %}
       {% endblock %}

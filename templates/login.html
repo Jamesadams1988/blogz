@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-
+<center>
       <div class="login">
         <h1>Login</h1>
         <form action="/login" method="POST">
@@ -10,6 +10,7 @@
           <p class="error">{{ password_error }}</p>
           <input type="submit" value="login">
         </form>
-        <p><a href="/signup">register here</a></p>
+        <p><a href="/signup" class="links">Register Here</a></p>
       </div>
+    </center>
 {% endblock %}

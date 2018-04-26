@@ -5,7 +5,7 @@
         <h1>Visitors</h1>
         <hr>
         {% for user in users %}
-        <p><a href="/blog?userid={{user.id}}">{{ user.username }}</a></p>
+        <p><a href="/blog?userid={{user.id}}" class="links">{{ user.username }}</a></p>
         {% endfor %}
       </div>
 {% endblock %}
