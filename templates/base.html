@@ -1,31 +1,20 @@
 <!DOCTYPE html>
-
 <html>
-
   <head>
-
     <title>{{title}}</title>
-
-
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-
   <body>
-
     <div>
-
       <nav>
-
-        <h1><a href="/">Blog Away!</a></h1>
+        <center><h1><a href="/">Blog Away!</a></h1></center>
         <a href="/blog" >View All Posts</a>
         <a href="/newpost">New Post</a>
         <a href="/logout">Logout</a>
         <a href="/login">Login</a>
-
       </nav>
       {% block content %}
       {% endblock %}
-    </div>
-
+    </div>  
   </body>
-
 </html>
